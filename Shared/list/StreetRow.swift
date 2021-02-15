@@ -6,18 +6,17 @@
 //
 
 import SwiftUI
- 
+
 struct StreetRow: View {
     var name: String
     var body: some View {
         VStack{
-            Text("我的名字是\(name)")
+            Text("内容\(name)")
         }
     }
 }
 struct StreetRow_Previews: PreviewProvider {
     static var previews: some View {
         StreetRow(name: "123" )
-        
     }
 }

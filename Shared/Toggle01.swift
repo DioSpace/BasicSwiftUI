@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Toggle01: View {
+    //@State 数据双向绑定
     @State var isOn = true
     var body: some View {
         Toggle(isOn: $isOn) {

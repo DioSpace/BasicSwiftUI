@@ -39,6 +39,16 @@
 		5F44D01F25D6A85D00E75A3B /* StreetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D01D25D6A85D00E75A3B /* StreetRow.swift */; };
 		5F44D02325D6A8B600E75A3B /* Rectangle01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D02225D6A8B600E75A3B /* Rectangle01.swift */; };
 		5F44D02425D6A8B600E75A3B /* Rectangle01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D02225D6A8B600E75A3B /* Rectangle01.swift */; };
+		5F44D06725D6B84000E75A3B /* Spacer01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D06625D6B84000E75A3B /* Spacer01.swift */; };
+		5F44D06825D6B84000E75A3B /* Spacer01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D06625D6B84000E75A3B /* Spacer01.swift */; };
+		5F44D06C25D6B94800E75A3B /* Form01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D06B25D6B94800E75A3B /* Form01.swift */; };
+		5F44D06D25D6B94800E75A3B /* Form01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D06B25D6B94800E75A3B /* Form01.swift */; };
+		5F44D07125D7BA4400E75A3B /* ZStack01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D07025D7BA4400E75A3B /* ZStack01.swift */; };
+		5F44D07225D7BA4400E75A3B /* ZStack01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D07025D7BA4400E75A3B /* ZStack01.swift */; };
+		5F44D07625D7BF1500E75A3B /* Frame01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D07525D7BF1500E75A3B /* Frame01.swift */; };
+		5F44D07725D7BF1500E75A3B /* Frame01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D07525D7BF1500E75A3B /* Frame01.swift */; };
+		5F54847725DA6822003B0F25 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F54847625DA6822003B0F25 /* FirstPage.swift */; };
+		5F54847B25DA6832003B0F25 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F54847A25DA6832003B0F25 /* SecondPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +73,12 @@
 		5F44D01625D6A83700E75A3B /* List01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List01.swift; sourceTree = "<group>"; };
 		5F44D01D25D6A85D00E75A3B /* StreetRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetRow.swift; sourceTree = "<group>"; };
 		5F44D02225D6A8B600E75A3B /* Rectangle01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle01.swift; sourceTree = "<group>"; };
+		5F44D06625D6B84000E75A3B /* Spacer01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer01.swift; sourceTree = "<group>"; };
+		5F44D06B25D6B94800E75A3B /* Form01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form01.swift; sourceTree = "<group>"; };
+		5F44D07025D7BA4400E75A3B /* ZStack01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack01.swift; sourceTree = "<group>"; };
+		5F44D07525D7BF1500E75A3B /* Frame01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame01.swift; sourceTree = "<group>"; };
+		5F54847625DA6822003B0F25 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		5F54847A25DA6832003B0F25 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,7 @@
 		5F44CFCC25D6A6A400E75A3B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5F54847525DA67FC003B0F25 /* jump */,
 				5F44D01525D6A82200E75A3B /* list */,
 				5F44CFCD25D6A6A400E75A3B /* BasicSwiftUIApp.swift */,
 				5F44CFF425D6A6DD00E75A3B /* Button01.swift */,
@@ -109,6 +126,10 @@
 				5F44CFF825D6A6DE00E75A3B /* Text02.swift */,
 				5F44CFF525D6A6DD00E75A3B /* TextField01.swift */,
 				5F44CFF225D6A6DD00E75A3B /* Toggle01.swift */,
+				5F44D06625D6B84000E75A3B /* Spacer01.swift */,
+				5F44D06B25D6B94800E75A3B /* Form01.swift */,
+				5F44D07025D7BA4400E75A3B /* ZStack01.swift */,
+				5F44D07525D7BF1500E75A3B /* Frame01.swift */,
 				5F44CFCF25D6A6A600E75A3B /* Assets.xcassets */,
 				5F44D02225D6A8B600E75A3B /* Rectangle01.swift */,
 			);
@@ -148,6 +169,15 @@
 				5F44D01625D6A83700E75A3B /* List01.swift */,
 			);
 			path = list;
+			sourceTree = "<group>";
+		};
+		5F54847525DA67FC003B0F25 /* jump */ = {
+			isa = PBXGroup;
+			children = (
+				5F54847625DA6822003B0F25 /* FirstPage.swift */,
+				5F54847A25DA6832003B0F25 /* SecondPage.swift */,
+			);
+			path = jump;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,14 +283,20 @@
 				5F44D02325D6A8B600E75A3B /* Rectangle01.swift in Sources */,
 				5F44CFFB25D6A6DE00E75A3B /* Stepper01.swift in Sources */,
 				5F44D00525D6A6DE00E75A3B /* TextField01.swift in Sources */,
+				5F44D07625D7BF1500E75A3B /* Frame01.swift in Sources */,
 				5F44D00B25D6A6DE00E75A3B /* Text02.swift in Sources */,
 				5F44D00925D6A6DE00E75A3B /* Image01.swift in Sources */,
+				5F44D06725D6B84000E75A3B /* Spacer01.swift in Sources */,
+				5F44D06C25D6B94800E75A3B /* Form01.swift in Sources */,
+				5F54847725DA6822003B0F25 /* FirstPage.swift in Sources */,
 				5F44D01E25D6A85D00E75A3B /* StreetRow.swift in Sources */,
 				5F44D00125D6A6DE00E75A3B /* Color01.swift in Sources */,
 				5F44CFE025D6A6A600E75A3B /* BasicSwiftUIApp.swift in Sources */,
 				5F44D00F25D6A6DE00E75A3B /* Text01.swift in Sources */,
 				5F44D00725D6A6DE00E75A3B /* Group01.swift in Sources */,
+				5F54847B25DA6832003B0F25 /* SecondPage.swift in Sources */,
 				5F44D01725D6A83700E75A3B /* List01.swift in Sources */,
+				5F44D07125D7BA4400E75A3B /* ZStack01.swift in Sources */,
 				5F44CFFD25D6A6DE00E75A3B /* Slider01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,14 +311,18 @@
 				5F44D02425D6A8B600E75A3B /* Rectangle01.swift in Sources */,
 				5F44CFFC25D6A6DE00E75A3B /* Stepper01.swift in Sources */,
 				5F44D00625D6A6DE00E75A3B /* TextField01.swift in Sources */,
+				5F44D07725D7BF1500E75A3B /* Frame01.swift in Sources */,
 				5F44D00C25D6A6DE00E75A3B /* Text02.swift in Sources */,
 				5F44D00A25D6A6DE00E75A3B /* Image01.swift in Sources */,
+				5F44D06825D6B84000E75A3B /* Spacer01.swift in Sources */,
+				5F44D06D25D6B94800E75A3B /* Form01.swift in Sources */,
 				5F44D01F25D6A85D00E75A3B /* StreetRow.swift in Sources */,
 				5F44D00225D6A6DE00E75A3B /* Color01.swift in Sources */,
 				5F44CFE125D6A6A600E75A3B /* BasicSwiftUIApp.swift in Sources */,
 				5F44D01025D6A6DE00E75A3B /* Text01.swift in Sources */,
 				5F44D00825D6A6DE00E75A3B /* Group01.swift in Sources */,
 				5F44D01825D6A83700E75A3B /* List01.swift in Sources */,
+				5F44D07225D7BA4400E75A3B /* ZStack01.swift in Sources */,
 				5F44CFFE25D6A6DE00E75A3B /* Slider01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

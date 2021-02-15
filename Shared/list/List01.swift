@@ -16,17 +16,17 @@ struct List01: View {
         //        }
         List{
             Section{
-                StreetRow(name: "龙腾")
-                StreetRow(name: "龙腾1")
-                StreetRow(name: "龙腾1")
+                StreetRow(name: "Dio")
+                StreetRow(name: "Dio1")
+                StreetRow(name: "Dio2")
             }
             Section(header:Text("header"),footer:
                         Text("提交")
                         .foregroundColor(.green)
             ){
-                StreetRow(name: "龙腾")
-                StreetRow(name: "龙腾1")
-                StreetRow(name: "龙腾1")
+                StreetRow(name: "Dio")
+                StreetRow(name: "Dio1")
+                StreetRow(name: "Dio2")
             }
             
         }.listStyle(GroupedListStyle())
